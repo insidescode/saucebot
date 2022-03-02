@@ -414,7 +414,7 @@ func main() {
 	})
 
 	bot.Handle("based bot", func(m *tb.Message) {
-		bot.Reply(m, "Thank you hooman sensei")
+		bot.Reply(m, "tmkc bsdk")
 	})
 
     bot.Handle("/contribute", func(m *tb.Message) {
