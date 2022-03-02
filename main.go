@@ -333,7 +333,7 @@ func main() {
 		return
 	}
 
-	bot.Handle("/sauce", func(m *tb.Message) {
+	bot.Handle("/reverse", func(m *tb.Message) {
 		// save the image
 		rt, err := savePhotoAndGetMessage(bot, m)
 		if err != nil {
@@ -367,7 +367,7 @@ func main() {
 		}
 	})
 
-	bot.Handle("/animesauce", func(m *tb.Message) {
+	bot.Handle("/source", func(m *tb.Message) {
 		// save the image
 		rt, err := savePhotoAndGetMessage(bot, m)
 		if err != nil {
@@ -418,7 +418,7 @@ func main() {
 	})
 
     bot.Handle("/contribute", func(m *tb.Message) {
-        bot.Reply(m, "Contribute to https://github.com/swiperflue/saucebot")
+        bot.Reply(m, "Contribute to t.me/sluttyoreo")
     })
 
 	// run the bot
